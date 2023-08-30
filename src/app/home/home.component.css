@@ -1,0 +1,42 @@
+:host{
+    /* background: #4285f4; */
+    background: linear-gradient(to bottom right, #171926, #6d1637);
+    color:#fff;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100  
+}
+
+.container {
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    /* grid-gap: 20px; Gap between grid items */
+  }
+  
+  .left-column {
+    /* Styles for the left column */
+  }
+  
+  .right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Vertically center content */
+    padding-right: 33%;
+  }
+  
+h1 {
+    font-family: Consolas, monospace;
+}  
+
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
